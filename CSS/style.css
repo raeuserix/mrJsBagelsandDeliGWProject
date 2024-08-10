@@ -117,7 +117,10 @@ nav li:hover{
 }
 
 
-
+/*Hero*/
+.heroBanner {
+    cursor: pointer;
+}
 /*About*/
 .containerGrid {
     margin: 0 auto;
@@ -212,6 +215,11 @@ nav li:hover{
     padding-bottom: 40px;
     width:22%;
 
+}
+
+.flexCard:hover {
+    cursor:pointer;
+    scale:1.01;
 }
 
 .menuImage img {
