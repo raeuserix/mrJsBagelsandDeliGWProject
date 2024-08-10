@@ -1,12 +1,12 @@
-
 body {
-   margin: 0;
+    margin: 0;
 }
+
 /*Navigation*/
 
 h1 {
-    font-family:'Limelight', sans-serif;
-    color:#373A42;
+    font-family: 'Limelight', sans-serif;
+    color: #373A42;
 }
 
 p {
@@ -15,12 +15,12 @@ p {
 }
 
 .cartbutton {
-    width:105px;
-    background-color:white;
-    border-radius:7px;
+    width: 105px;
+    background-color: white;
+    border-radius: 7px;
     border-color: #4B998B;
-    color:#4B998B;
-    font-weight:bold;
+    color: #4B998B;
+    font-weight: bold;
     border: 2px solid #4B998B;
     padding-left: 10px;
     padding-right: 10px;
@@ -29,10 +29,10 @@ p {
     border-radius: 4px;
     font-family: 'Lato', sans-serif;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    border-width:2px;
+    border-width: 2px;
     transition: transform 0.2s ease-in-out;
     cursor: pointer;
-    
+
 }
 
 .navigation {
@@ -53,17 +53,20 @@ p {
 }
 
 .currentLocation {
-    position:absolute; top: -2px; right: 30px;;
-    font-size:13px;
+    position: absolute;
+    top: -2px;
+    right: 30px;
+    ;
+    font-size: 13px;
 }
 
 .currentLocation b:hover {
-    font-weight:800;
-    cursor:pointer;
+    font-weight: 800;
+    cursor: pointer;
 }
 
-.currentLocation i{    
-    margin-right:3px;
+.currentLocation i {
+    margin-right: 3px;
 }
 
 .inline-block {
@@ -73,15 +76,15 @@ p {
 }
 
 .logo {
-    padding-left:25px;
-    display:inline-block;
-    cursor:pointer;
+    padding-left: 25px;
+    display: inline-block;
+    cursor: pointer;
 }
 
 .cartbutton {
-    margin-right:30px;
-    margin-bottom:10px;
-    display:inline-block;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    display: inline-block;
 }
 
 .inline-block ul {
@@ -96,24 +99,24 @@ p {
 nav li {
     display: inline-block;
     padding: 0px 30px;
-    font-family:'Lato', sans-serif;
-    font-size:14.5px;
-    cursor:pointer;
-    font-weight:500;
+    font-family: 'Lato', sans-serif;
+    font-size: 14.5px;
+    cursor: pointer;
+    font-weight: 500;
 
 }
 
-nav li:hover{
-    font-weight:700;
-    color:#4B998B;
-    scale:1.05;
-    cursor:pointer;
+nav li:hover {
+    font-weight: 700;
+    color: #4B998B;
+    scale: 1.05;
+    cursor: pointer;
 }
 
-.cartbutton:hover{
-    cursor:pointer;
-    scale:1.07;
-    
+.cartbutton:hover {
+    cursor: pointer;
+    scale: 1.07;
+
 }
 
 
@@ -121,12 +124,12 @@ nav li:hover{
 .heroBanner {
     cursor: pointer;
 }
+
 /*About*/
 .containerGrid {
     margin: 0 auto;
     padding-bottom: 10px;
     padding-top: 10px;
-    font-family: 'Poppins', sans-serif;
     background-color: #FFFFFF;
     display: grid;
     grid-template-columns: 1.5fr 3.5fr;
@@ -144,32 +147,32 @@ nav li:hover{
 
 .rightSide {
     padding-right: 24px;
-    text-align:top;
+    text-align: top;
 
 }
 
 .About {
-    margin-left:20px;
-    margin-right:60px;
-    margin-top:22px;
-    margin-bottom:22px;
+    margin-left: 20px;
+    margin-right: 60px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .About h1 {
-    margin-top:0;
-    margin-bottom:3px;
-    font-size:30px;
+    margin-top: 0;
+    margin-bottom: 3px;
+    font-size: 30px;
 }
 
 
 .menu {
-    width:230px;
-    height:35px;
-    background-color:#4B998B;
-    border-radius:10px;
+    width: 230px;
+    height: 35px;
+    background-color: #4B998B;
+    border-radius: 10px;
     border-color: #4B998B;
-    color:white;
-    font-weight:bold;
+    color: white;
+    font-weight: bold;
     border: 2px solid #4B998B;
     padding-left: 10px;
     padding-right: 10px;
@@ -178,23 +181,23 @@ nav li:hover{
     border-radius: 4px;
     font-family: 'Lato', sans-serif;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    border-width:2px;
+    border-width: 2px;
     transition: transform 0.2s ease-in-out;
     cursor: pointer;
 }
 
-.menu:hover{
-    scale:1.05;
+.menu:hover {
+    scale: 1.05;
 }
 
 /*Local Favorites*/
 
 
 .localFavorites h1 {
-   margin-top:25px;
-    padding-left:40px;
-    padding-top:15px;
-    padding-bottom:15px;
+    margin-top: 25px;
+    padding-left: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     background-color: #ddf1f2;
 }
 
@@ -213,14 +216,14 @@ nav li:hover{
     padding-top: 15px;
     padding-left: 25px;
     padding-bottom: 40px;
-    width:22%;
+    width: 22%;
 
 }
 
 .flexCard:hover {
-    cursor:pointer;
-    scale:1.007;
-    
+    cursor: pointer;
+    scale: 1.007;
+
 }
 
 .menuImage img {
@@ -229,49 +232,51 @@ nav li:hover{
 }
 
 .menuImage {
-    margin:0;
-    height:160px;
+    margin: 0;
+    height: 160px;
 
 }
+
 .menuContent {
-    background-color:#f4f4f4;
-    padding-bottom:30px;
-    margin-top:0;
+    background-color: #f4f4f4;
+    padding-bottom: 30px;
+    margin-top: 0;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 0.1);
-    height:190px;
+    height: 190px;
 
 
 
 }
 
 .menuContent h3 {
-    padding-left:15px;
+    padding-left: 15px;
     font-family: 'Lato', sans-serif;
-    margin-bottom:2%;
+    margin-bottom: 2%;
 }
 
 .price {
-    color:#4B998B;
-    padding-left:15px;
-    margin-top:2px;
-    font-weight:bold;
+    color: #4B998B;
+    padding-left: 15px;
+    margin-top: 2px;
+    font-weight: bold;
 }
 
 .menuDescription {
-padding-left:15px;
-margin-bottom:10px;
+    padding-left: 15px;
+    margin-bottom: 10px;
 
 }
+
 .addtoCart {
-    width:118px;
-    height:35px;
-    background-color:#4B998B;
-    border-radius:10px;
+    width: 118px;
+    height: 35px;
+    background-color: #4B998B;
+    border-radius: 10px;
     border-color: #4B998B;
-    color:white;
-    font-weight:bold;
+    color: white;
+    font-weight: bold;
     border: 2px solid #4B998B;
     padding-left: 10px;
     padding-right: 10px;
@@ -280,26 +285,27 @@ margin-bottom:10px;
     border-radius: 4px;
     font-family: 'Lato', sans-serif;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    border-width:2px;
+    border-width: 2px;
     transition: transform 0.2s ease-in-out;
     cursor: pointer;
-    margin-left:12px;
-    margin-right:5px;
+    margin-left: 12px;
+    margin-right: 5px;
 }
-.addtoCart:hover{
-    cursor:pointer;
-    scale:1.04;
-    
+
+.addtoCart:hover {
+    cursor: pointer;
+    scale: 1.04;
+
 }
 
 .customize {
-    width:118px;
-    height:35px;
-    background-color:white;
-    border-radius:7px;
+    width: 118px;
+    height: 35px;
+    background-color: white;
+    border-radius: 7px;
     border-color: #4B998B;
-    color:#4B998B;
-    font-weight:bold;
+    color: #4B998B;
+    font-weight: bold;
     border: 2px solid #4B998B;
     padding-left: 10px;
     padding-right: 10px;
@@ -308,24 +314,25 @@ margin-bottom:10px;
     border-radius: 4px;
     font-family: 'Lato', sans-serif;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    border-width:2px;
+    border-width: 2px;
     transition: transform 0.2s ease-in-out;
     cursor: pointer;
 }
-.customize:hover{
-    cursor:pointer;
-    scale:1.04;
-    
+
+.customize:hover {
+    cursor: pointer;
+    scale: 1.04;
+
 }
 
 .viewmore {
-    width:250px;
-    height:35px;
-    background-color:#4B998B;
-    border-radius:10px;
+    width: 250px;
+    height: 35px;
+    background-color: #4B998B;
+    border-radius: 10px;
     border-color: #4B998B;
-    color:white;
-    font-weight:bold;
+    color: white;
+    font-weight: bold;
     border: 2px solid #4B998B;
     padding-left: 10px;
     padding-right: 10px;
@@ -334,19 +341,144 @@ margin-bottom:10px;
     border-radius: 4px;
     font-family: 'Lato', sans-serif;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    border-width:2px;
+    border-width: 2px;
     transition: transform 0.2s ease-in-out;
     cursor: pointer;
-    margin-bottom:30px;
-  
+    margin-bottom: 22px;
+
 }
 
-.viewmore:hover{
-     cursor:pointer;
-    scale:1.04;
+.viewmore:hover {
+    cursor: pointer;
+    scale: 1.04;
 }
 
 .more {
-    display:flex;
+    display: flex;
     justify-content: center;
+}
+
+/*Promos*/
+.otherPromotions {
+    background-color: #ffffff;
+
+}
+
+.otherPromotions .section {
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    /* grid-gap: 2px; */
+    grid-template-areas:
+        "promoLeft promoRight";
+    align-content: start;
+}
+
+
+.promoLeft {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.promoRight {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+.otherPromotions h1 {
+    margin-top: 15px;
+    padding-left: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #ddf1f2;
+}
+
+.locationcontainer {
+
+    margin-left: 39px;
+    margin-right: 40px;
+    margin-top: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 30px;
+    grid-template-areas:
+        "locationInfo" "mapImage";
+    align-content: start;
+}
+
+.locationInfo h1 {
+    margin-top: 0;
+    font-size:30px;
+}
+
+.mapImage {
+    cursor:pointer;
+}
+
+/*footer*/
+
+footer {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    /* grid-gap: 30px; */
+    grid-template-areas:
+        "logo" "inline-block";
+    align-content: start;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    background-color: #ddf1f287;
+    font-family: 'Lato', sans-serif;
+}
+
+footer ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #142233;
+    padding-right: 12px;
+
+
+}
+
+footer li {
+    padding-right:40px;
+    display:inline-block;
+    font-family: 'Lato', sans-serif;
+    font-size:14.5px;
+    font-weight:500;
+}
+
+.text:hover {
+    font-weight: 700;
+    color: #000000;
+    scale: 1.05;
+    cursor: pointer;
+}
+
+
+
+.social {
+    display:flex;
+    flex-direction:row;
+    margin-left:15px
+}
+
+.social:hover {
+    color: #000000;
+    scale: 1.1;
+    cursor: pointer;
+}
+
+.logoo {
+    cursor:pointer;
 }
