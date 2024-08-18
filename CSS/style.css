@@ -14,6 +14,10 @@ p {
     font-size: 15px;
 }
 
+button{
+    font-size:15px;
+}
+
 .cartbutton {
     width: 105px;
     background-color: white;
@@ -60,6 +64,10 @@ p {
     font-size: 13px;
 }
 
+nav ul {
+    align-items: baseline;
+}
+
 .currentLocation b:hover {
     font-weight: 800;
     cursor: pointer;
@@ -91,7 +99,9 @@ p {
     display: inline-flex;
     justify-content: space-between;
     color: #142233;
-    padding-right: 12px;
+    padding-right:0px;
+    padding-left:25px;
+  
 
 
 }
@@ -141,6 +151,7 @@ nav li:hover {
 
 .leftSide {
     padding-left: 20px;
+    padding-right:20px;
 
 
 }
@@ -204,20 +215,35 @@ nav li:hover {
 .flexContainer {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     /* padding-top: 10px; */
     padding-left: 15px;
+    /* flex-wrap: wrap; */
 
 
 }
 
+/* .flexx1 {
+    display: flex;
+    flex-direction:row;
+    width:100%;
+}
+
+.flexx2 {
+    display: flex;
+    flex-direction:row;
+    width:100%;
+} */
+
 .flexCard {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     padding-top: 15px;
     padding-left: 25px;
     padding-bottom: 40px;
-    width: 22%;
-
+    /* width: 22%; */
+    margin-right:10px;
 }
 
 .flexCard:hover {
@@ -234,6 +260,7 @@ nav li:hover {
 .menuImage {
     margin: 0;
     height: 160px;
+    width:274px;
 
 }
 
@@ -245,6 +272,7 @@ nav li:hover {
     border-bottom-right-radius: 10px;
     box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 0.1);
     height: 190px;
+    width:274px;
 
 
 
@@ -385,6 +413,35 @@ nav li:hover {
     cursor: pointer;
 }
 
+/* .promoLeft button {
+    position:relative;
+    z-index:2;
+    margin-top: 450px;
+    margin-left:298px;
+    width: 223px;
+    height: 35px;
+    background-color: #4B998B;
+    border-radius: 10px;
+    border-color: #4B998B;
+    color: white;
+    font-weight: bold;
+    border: 2px solid #4B998B;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 4px;
+    font-family: 'Lato', sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-width: 2px;
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+} */
+
+/* .promoLeft button:hover {
+    scale: 1.05;
+} */
+
 .promoRight {
     display: flex;
     justify-content: center;
@@ -404,7 +461,7 @@ nav li:hover {
 
     margin-left: 39px;
     margin-right: 40px;
-    margin-top: 50px;
+    /* margin-top: 10px; */
     padding-bottom: 10px;
     padding-top: 10px;
     display: grid;
@@ -415,47 +472,66 @@ nav li:hover {
     align-content: start;
 }
 
-.locationInfo h1 {
-    margin-top: 0;
-    font-size:30px;
+.location h1 {
+    margin-top: 15px;
+    padding-left: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #ddf1f2;
+    margin-bottom:10px;
+}
+
+.location {
+    margin-top:20px;
 }
 
 .mapImage {
     cursor:pointer;
 }
 
+
+.locationcontainer p {
+    margin-top:0px;
+}
+
 /*footer*/
 
 footer {
     display: grid;
-    grid-template-columns: 2fr 2fr;
-    /* grid-gap: 30px; */
+    grid-template-columns: 2fr 3fr; 
+    grid-gap: 30px;
     grid-template-areas:
         "logo" "inline-block";
     align-content: start;
     padding-top: 20px;
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
     padding-left: 25px;
     background-color: #ddf1f287;
     font-family: 'Lato', sans-serif;
+
+
 }
 
 footer ul {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: right;
     color: #142233;
-    padding-right: 12px;
-
-
+    /* padding-right: 20px; */
 }
+
+/* .div1 {
+    width:50px;
+} */
 
 footer li {
     padding-right:40px;
-    display:inline-block;
+    display:flex;
+    flex-direction:row;
     font-family: 'Lato', sans-serif;
     font-size:14.5px;
     font-weight:500;
+    
 }
 
 .text:hover {
@@ -463,6 +539,10 @@ footer li {
     color: #000000;
     scale: 1.05;
     cursor: pointer;
+}
+
+li .inline-block .text{
+   justify-content:space-evenly;
 }
 
 
@@ -481,4 +561,314 @@ footer li {
 
 .logoo {
     cursor:pointer;
+}
+
+
+.ull {
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:right;
+    margin-right:50px;
+    
+}
+
+
+
+/*Mobile Media Query*/
+@media only screen and (max-width: 950px) {
+   
+
+  .flexx2 {
+        width:90%;
+    }
+
+    .menuContent .addtoCart .customize {
+        width: 70px;
+    }
+
+    /* .flexContainer {
+        width:100%;
+        
+    } */
+
+    .containerGrid {
+        margin:0px,0px;
+        padding-right:0px;
+        padding-left:0px;
+            display:flex;
+            flex-direction:column;
+            align-items:center;
+            /* padding-right:5%; */
+            padding-left:5%;
+        grid-gap: 0px;
+
+    }
+    .aboutt {
+        padding-bottom:20px;
+        width:300px;
+        height:300px;
+    }
+
+    .localFavorites .flexContainer {
+display:flex;
+flex-direction:row;
+justify-content: center;
+/* align-items:center;    } */
+}
+
+.locationcontainer {
+    display:flex;
+    flex-direction:column-reverse;
+    align-items:center;
+    margin-bottom:30px;
+}
+
+.locationcontainer p {
+    margin-top:0px;
+}
+
+.mapImage {
+    padding-top:15px;
+}
+
+footer {
+display:flex;
+flex-direction:column;
+flex-wrap:wrap;
+align-content:center; }
+
+footer ul {
+    padding-right:50px;
+}
+
+
+/* align-content:space-around; */
+
+
+.div1 {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    flex-wrap:wrap;
+}
+
+.ull {
+    margin-right:0px;
+}
+
+.navigation {
+    display:flex;
+    flex-direction:column;
+justify-content: left;}
+
+nav .inline-block ul {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    color: #142233;
+    padding-left:30px;
+
+
+}
+
+nav li {
+    display: inline-block;
+    /* padding: 0px 30px; */
+    font-family: 'Lato', sans-serif;
+    font-size: 12.5px;
+    cursor: pointer;
+    font-weight: 500;
+    padding-right:10px
+
+}
+
+.cartbutton {
+    margin-left:20px;
+}
+}
+
+
+@media only screen and (max-width: 600px) {
+
+.navigation {
+    display:flex;
+    flex-direction:column;
+justify-content: left;}
+
+
+.heroBanner {
+    width: 100%;
+}
+.containerGrid {
+    margin:0px,0px;
+    padding-right:0px;
+    padding-left:0px;
+}
+.currentLocation {
+    position: absolute;
+    top: -2px;
+    right: 10px;
+    ;
+    font-size: 13px;
+}
+
+.inline-block ul {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    color: #142233;
+    padding-left:22px;
+
+
+}
+
+nav li {
+    display: inline-block;
+    /* padding: 0px 30px; */
+    font-family: 'Lato', sans-serif;
+    font-size: 12.5px;
+    cursor: pointer;
+    font-weight: 500;
+    padding-right:10px
+
+}
+
+.inline-block ul  {
+    /* margin-left:2px; */
+    justify-content:space-evenly;
+
+}
+
+.inline-block li {
+    padding-left:0px;
+}
+ .cartbutton {
+    align-items:center;
+}
+
+.containerGrid {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    /* padding-right:5%; */
+    padding-left:8%;
+grid-gap: 0px;
+
+}
+
+.cartbutton {
+    margin-top:20px;
+    margin-left:5%;
+}
+
+.leftSide img{
+    width:100px;
+    height:100px;
+}
+
+
+
+.rightSide {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    padding-right:0px;
+    padding-left:20px;
+}
+
+.leftSide img {
+    width:300px;
+height:300px;
+padding-bottom:20px;
+display:flex;
+flex-direction:column;
+align-items:center;
+}
+
+/* .localFavorites {
+    margin:40px, 0;
+} */
+/* .flexContainer {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+} */
+
+.flexCard {
+    /* width:90%; */
+    padding-left:0;
+    
+}
+
+.otherPromotions .section {
+    display:flex;
+    flex-direction:column;
+}
+
+.promoLeft {
+    padding-bottom:20px;
+}
+
+
+
+.locationcontainer {
+    margin-bottom:30px;
+    display:flex;
+    flex-direction:column-reverse;
+    justify-content:center;
+}
+
+
+
+footer{
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    padding-left:8px;
+}
+
+.logoo {
+    margin-bottom:0px;
+}
+    /* display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:1fr 1fr 1fr;
+    grid-gap: 10px;
+    grid-template-areas:
+        "logoo,"
+        "text,"
+        "socialmedia";
+    align-content: start;} */
+
+/* .logoo {
+    width:180px;
+    height:180px;
+} */
+
+footer li {
+    padding-right:20px;
+    font-size:14px;
+
+}
+
+footer ul {
+    margin-left:0px;
+    padding-left:15px;
+    padding-right:15px;
+    padding-bottom:15px;
+    
+}
+
+
+.socialmedia {
+    display: flex;
+    display:row;
+    
+}
+
+
+
 }
